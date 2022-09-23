@@ -99,7 +99,7 @@
                  }
 
                     // Задача 4 (циклы)
-                     int bak = 15000;
+                          // int bak = 15000;
                      int allSumme = 0;
                      int = 0;
                      while (allSumma <= 12000000) {
@@ -110,8 +110,8 @@
                      }
 
                       // Задаяча 5 (цикла)
-                       while (allSumma <= 12000000){
-                             allSumma+=allSumma*0.07;
+                       while (allSumma <= 12000000)
+                           allSumma+=allSumma*0.07;
                              allSumma+=bak;
                              i++;
                              if(i%6==0){
@@ -129,29 +129,28 @@
                           for (i = 0; i <= 9; i = i + 6){
                              if( i%6 == 0){
                              System.out.println("Месяц"+i+"Сумма накоплениц равна"+allSumma+"рублей");
-                             }
-                             }
+                 }
 
                           // Задача 6 (циклы)
                           int september = 31;
                           int friday;
-                          for (friday = 2; friday <= 31; friday++) {
-                              if (friday % 6 == 0) {
-                                  System.out.println("Сегодня пятница" + friday + "число необходимо подготовить отчет");
-                              }
+                          for (friday = 2; friday <= 31; friday++){
+                          if(friday%6==0){
+                          System.out.println("Сегодня пятница"+friday+"число необходимо подготовить отчет");
                           }
 
-                      // Задача 7 (циклы)
-                 for (int year = 2022-200; year < 2022+79; year +79){
-                 if (year % 79 ==0){
+                          // Задача 7 (циклы)
+                          for(int year=2022-200;year< 2022+79;year+79){
+                 if(year%79==0){
                  }
                  System.out.println("Комета прилетит в этот год");
                  }
 
                  //Задача
-         int num = 2;
-                 for (int i=1; i<=10; i ++){
-                 for (int j=1; j <= 2; j++){
-                     System.out.println(i+ "х" +j+ "=" + (i*j));
+                 int num=2;
+                 for(int i=1;i<=10;i++){
+                 for(int j=1;j<=2;j++){
+                 System.out.println(i+"х"+j+"="+(i*j));
+                 }
                  }
                  }
